@@ -1,0 +1,14 @@
+#spring.application.name=authentication-service
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://vishalpasi:test1234@cluster0.3xmrakz.mongodb.net/transport-tracker
+
+logging:
+    level:
+      root: INFO
+    file:
+      path: logs
